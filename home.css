@@ -13,11 +13,14 @@ html {
 div h4 {
   color: white;
   text-align: center;
+  margin: auto;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-size: 2.5vw;
 }
 
 body {
-  background: url(garden-soil-background-4k_nj5txx1c__F0000.png) no-repeat
-    center center fixed;
+  background: url(IMAGE.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -26,16 +29,14 @@ body {
 }
 
 .group {
-  width: 45%;
+  width: 50%;
   display: grid;
   margin: auto;
-  padding-top: 2%;
-  /* display: flex;
-  flex-direction: column; */
+  padding-top: 2vh;
 }
 
 .btn-large {
-  margin: 1%;
+  margin: 0.75vh;
 }
 
 @font-face {
@@ -126,13 +127,35 @@ p a {
   color: #dce775;
 }
 
+.logo {
+  height: 11vw;
+  width: 9vw;
+}
+
+.titles {
+  display: flex;
+  margin: auto;
+}
+
 @media (max-width: 500px) {
   .group {
-    width: 65%;
-    padding-top: 12%;
+    width: 75%;
+    padding-top: 6%;
   }
 
   div h4 {
-    font-size: 7vw;
+    font-size: 5vw;
+  }
+
+  /* .titles {
+    display: grid;
+  } */
+  .logo {
+    height: 10vh;
+    width: 14vw;
+    margin: auto;
+    /* position: absolute;
+    left: 39vw;
+    top: 3vw; */
   }
 }
