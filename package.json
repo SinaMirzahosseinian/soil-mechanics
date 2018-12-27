@@ -1,0 +1,22 @@
+{
+  "name": "soil-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SinaMirzahosseinian/soil-mechanics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SinaMirzahosseinian/soil-mechanics/issues"
+  },
+  "homepage": "https://SinaMirzahosseinian.github.io/soil-mechanics",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
